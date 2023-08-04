@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: rgb(83, 37, 37);
+    color: lightblue;
+
+  }
+  
+  main {
+    flex: 1 0 auto;
+  }
+  
+  footer.page-footer {
+    padding-top: 0;
+    text-align: right;
+    background-color: darkred;
+    color: lightblue;
+  }
+
+  ul {
+    color: lightblue;
+  }
+
+  #nav {
+    background-color: darkred;
+    color: lightblue;
+  }
+  
+  .card {
+    background-color: darkred;
+    color: lightblue;
+  }
+
+  .dogForm {
+    color: white;
+  }
+
+  .input-field label {
+    color: #22e510
+  }
+
+  .input-field input[type=text]:focus + label {
+    color: #fbf9f9;
+  }
