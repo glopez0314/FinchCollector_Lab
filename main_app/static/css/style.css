@@ -31,15 +31,3 @@ body {
     background-color: darkred;
     color: lightblue;
   }
-
-  .dogForm {
-    color: white;
-  }
-
-  .input-field label {
-    color: #22e510
-  }
-
-  .input-field input[type=text]:focus + label {
-    color: #fbf9f9;
-  }
